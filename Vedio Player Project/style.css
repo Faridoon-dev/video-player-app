@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 100px ;
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+video {
+    width: 500px;
+}
+
+.Controls {
+    background-color: lightblue;
+    width: 500px;
+    padding: 10px ;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 1rem;
+}
+
+.Controls .pay {
+    width: 300px;
+    background-color: white;
+    height: 4px;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+    display: flex;
+}
+
+.Controls .pay .go {
+    height: 5px;
+    width: 5px;
+    background-color: blueviolet;
+}
+
+.Controls .pay  .g {
+    background-color: blueviolet;
+    height: 15px;
+    width: 5px;
+    border-radius: 3px;
+    transform: translateY(-5px);
+}
+
+button {
+    all: unset;
+    cursor: pointer;
+}
